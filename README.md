@@ -58,6 +58,8 @@ order by account.acc_number asc, transaction.trs_date
 
 ```http
   GET /jobs
+  GET /jobs?description=python&location=berlin
+  GET /jobs?page=1
 ```
 
 | Parameter | Type     | Description                       |
